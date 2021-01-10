@@ -5,7 +5,7 @@ on:
       - master
 env:
   AWS_REGION: ap-northeast-1
-  AWS_LIGHTSAIL_SERVICE_NAME: aws-lightsail-containers-test
+  AWS_LIGHTSAIL_SERVICE_NAME: amazon-lightsail-containers-test
 jobs:
   deploy:
     name: Build and deploy
