@@ -1,0 +1,28 @@
+{
+  "name": "aws-lightsail-containers-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A deadly simple HTTP server built with Node.js http module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc src/index.ts --outDir dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arch-inc/aws-lightsail-containers-test.git"
+  },
+  "keywords": ["http", "server", "docker"],
+  "author": "Jun Kato <i@junkato.jp> (https://junkato.jp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arch-inc/aws-lightsail-containers-test/issues"
+  },
+  "homepage": "https://github.com/arch-inc/aws-lightsail-containers-test#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
