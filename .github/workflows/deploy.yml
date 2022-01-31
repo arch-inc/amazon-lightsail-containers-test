@@ -38,7 +38,7 @@ jobs:
         run: |
           service_name=${{ env.AWS_LIGHTSAIL_SERVICE_NAME }}
           aws lightsail push-container-image \
-            --region ap-northeast-1 \
+            --region ${{ env.AWS_REGION }} \
             --service-name ${service_name} \
             --label ${service_name} \
             --image ${service_name}:release
